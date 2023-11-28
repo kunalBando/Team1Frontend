@@ -1,0 +1,32 @@
+/* Add this CSS to your component or a separate stylesheet */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 80%; /* Adjust as needed */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
